@@ -52,7 +52,7 @@ nextBtn.addEventListener("click", () => {
 });
 
 
-//boutons navigation
+//boutons navigation last et first
 firstBtn.addEventListener("click", () => {
   currentIndex = 0;
   displayPokemon();
@@ -63,6 +63,7 @@ lastBtn.addEventListener("click", () => {
   displayPokemon();
 });
 
+// pikachu surfer
 const pika = document.querySelector('.pika-surf');
 
   window.addEventListener('scroll', () => {
