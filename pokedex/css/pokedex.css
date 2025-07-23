@@ -151,6 +151,16 @@ position: absolute;
   pointer-events: none;
 }
 
+.raichu-surf {
+  position: relative;
+  top: 55px;
+  left: 600px;
+  width: 90px;
+  z-index: 2;
+  transition: transform 0.1s linear;
+  pointer-events: none;
+}
+
 
 .pokedex-history p {
   font-size: 0.75rem;

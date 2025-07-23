@@ -65,8 +65,18 @@ lastBtn.addEventListener("click", () => {
 
 // pikachu surfer
 const pika = document.querySelector('.pika-surf');
+const raichu = document.querySelector('.raichu-surf');
 
-  window.addEventListener('scroll', () => {
-    const scrollY = window.scrollY;
+window.addEventListener('scroll', () => {
+  const scrollY = window.scrollY;
+
+  // Pikachu va vers la droite
+  if (pika) {
     pika.style.transform = `translateX(${scrollY * 0.5}px)`;
-  });
+  }
+
+  // Raichu va vers la gauche
+  if (raichu) {
+    raichu.style.transform = `translateX(-${scrollY * 0.3}px)`;
+  }
+});
