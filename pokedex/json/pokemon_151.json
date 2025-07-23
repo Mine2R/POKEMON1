@@ -1,0 +1,1361 @@
+[
+  {
+    "id": "001",
+    "name": "Bulbizarre",
+    "image": "001.png",
+    "type": "Plante/Poison",
+    "height": "0.7 m",
+    "weight": "6.9 kg",
+    "description": "Il a une étrange graine plantée sur son dos. Elle grandit avec lui depuis la naissance."
+  },
+  {
+    "id": "002",
+    "name": "Herbizarre",
+    "image": "002.png",
+    "type": "Plante/Poison",
+    "height": "1.0 m",
+    "weight": "13.0 kg",
+    "description": "Quand le bulbe sur son dos grossit, il dégage un doux parfum attirant les Pokémon."
+  },
+  {
+    "id": "003",
+    "name": "Florizarre",
+    "image": "003.png",
+    "type": "Plante/Poison",
+    "height": "2.0 m",
+    "weight": "100.0 kg",
+    "description": "La grande fleur sur son dos capte les rayons du soleil pour accumuler de l’énergie."
+  },
+  {
+    "id": "004",
+    "name": "Salamèche",
+    "image": "004.png",
+    "type": "Feu",
+    "height": "0.6 m",
+    "weight": "8.5 kg",
+    "description": "La flamme de sa queue indique sa santé. Elle vacille si Salamèche est faible."
+  },
+  {
+    "id": "005",
+    "name": "Reptincel",
+    "image": "005.png",
+    "type": "Feu",
+    "height": "1.1 m",
+    "weight": "19.0 kg",
+    "description": "Il se bat avec passion et sa queue flambe intensément lorsqu’il est en colère."
+  },
+  {
+    "id": "006",
+    "name": "Dracaufeu",
+    "image": "006.png",
+    "type": "Feu/Vol",
+    "height": "1.7 m",
+    "weight": "90.5 kg",
+    "description": "Il crache un feu si chaud qu’il fait fondre n’importe quoi. Il ne crache jamais sur un adversaire faible."
+  },
+  {
+    "id": "007",
+    "name": "Carapuce",
+    "image": "007.png",
+    "type": "Eau",
+    "height": "0.5 m",
+    "weight": "9.0 kg",
+    "description": "Il se retire dans sa carapace pour se protéger. Il crache de l’eau avec force pour attaquer."
+  },
+  {
+    "id": "008",
+    "name": "Carabaffe",
+    "image": "008.png",
+    "type": "Eau",
+    "height": "1.0 m",
+    "weight": "22.5 kg",
+    "description": "Sa queue recouverte d’une fourrure épaisse l’aide à se diriger sous l’eau."
+  },
+  {
+    "id": "009",
+    "name": "Tortank",
+    "image": "009.png",
+    "type": "Eau",
+    "height": "1.6 m",
+    "weight": "85.5 kg",
+    "description": "Son corps est robuste. Il utilise ses canons à eau pour tirer avec précision sur ses ennemis."
+  },
+  {
+    "id": "010",
+    "name": "Chenipan",
+    "image": "010.png",
+    "type": "Insecte",
+    "height": "0.3 m",
+    "weight": "2.9 kg",
+    "description": "Il aime manger les feuilles. Sa corne sur la tête lui sert à repousser les ennemis."
+  },
+  {
+    "id": "011",
+    "name": "Chrysacier",
+    "image": "011.png",
+    "type": "Insecte",
+    "height": "0.7 m",
+    "weight": "9.9 kg",
+    "description": "Bien qu’il soit presque immobile, sa carapace solide le protège des attaques."
+  },
+  {
+    "id": "012",
+    "name": "Papilusion",
+    "image": "012.png",
+    "type": "Insecte/Vol",
+    "height": "1.1 m",
+    "weight": "32.0 kg",
+    "description": "Ses ailes sont recouvertes de poudres toxiques qu’il utilise pour se défendre."
+  },
+  {
+    "id": "013",
+    "name": "Aspicot",
+    "image": "013.png",
+    "type": "Insecte/Poison",
+    "height": "0.3 m",
+    "weight": "3.2 kg",
+    "description": "Il utilise le dard empoisonné sur sa tête pour se défendre contre les ennemis."
+  },
+  {
+    "id": "014",
+    "name": "Coconfort",
+    "image": "014.png",
+    "type": "Insecte/Poison",
+    "height": "0.6 m",
+    "weight": "10.0 kg",
+    "description": "Il reste immobile pour durcir sa coquille en préparation de son évolution."
+  },
+  {
+    "id": "015",
+    "name": "Dardargnan",
+    "image": "015.png",
+    "type": "Insecte/Poison",
+    "height": "1.0 m",
+    "weight": "29.5 kg",
+    "description": "Il attaque férocement avec les dards acérés sur ses pattes avant et son abdomen."
+  },
+  {
+    "id": "016",
+    "name": "Roucool",
+    "image": "016.png",
+    "type": "Normal/Vol",
+    "height": "0.3 m",
+    "weight": "1.8 kg",
+    "description": "Il utilise ses ailes pour créer des tornades de poussière et échapper aux prédateurs."
+  },
+  {
+    "id": "017",
+    "name": "Roucoups",
+    "image": "017.png",
+    "type": "Normal/Vol",
+    "height": "1.1 m",
+    "weight": "30.0 kg",
+    "description": "Ce Pokémon protège farouchement son territoire des intrus."
+  },
+  {
+    "id": "018",
+    "name": "Roucarnage",
+    "image": "018.png",
+    "type": "Normal/Vol",
+    "height": "1.5 m",
+    "weight": "39.5 kg",
+    "description": "Il fond sur ses proies à grande vitesse, les capturant avec ses puissantes serres."
+  },
+  {
+    "id": "019",
+    "name": "Rattata",
+    "image": "019.png",
+    "type": "Normal",
+    "height": "0.3 m",
+    "weight": "3.5 kg",
+    "description": "Il ronge tout ce qu’il trouve. Très commun, on le trouve dans toutes les régions."
+  },
+  {
+    "id": "020",
+    "name": "Rattatac",
+    "image": "020.png",
+    "type": "Normal",
+    "height": "0.7 m",
+    "weight": "18.5 kg",
+    "description": "Ses crocs tranchants poussent constamment. Il doit sans cesse les user en rongeant."
+  },
+  {
+    "id": "021",
+    "name": "Piafabec",
+    "image": "021.png",
+    "type": "Normal/Vol",
+    "height": "0.3 m",
+    "weight": "2.0 kg",
+    "description": "Il est petit mais très agressif. Il attaque en groupe pour défendre son nid."
+  },
+  {
+    "id": "022",
+    "name": "Rapasdepic",
+    "image": "022.png",
+    "type": "Normal/Vol",
+    "height": "1.2 m",
+    "weight": "38.0 kg",
+    "description": "Il chasse depuis le ciel avec sa longue langue et son bec perçant."
+  },
+  {
+    "id": "023",
+    "name": "Abo",
+    "image": "023.png",
+    "type": "Poison",
+    "height": "2.0 m",
+    "weight": "6.9 kg",
+    "description": "Il se faufile silencieusement derrière sa proie avant de l’empoisonner."
+  },
+  {
+    "id": "024",
+    "name": "Arbok",
+    "image": "024.png",
+    "type": "Poison",
+    "height": "3.5 m",
+    "weight": "65.0 kg",
+    "description": "Les motifs de son ventre effraient les ennemis. Il les étrangle ensuite."
+  },
+  {
+    "id": "025",
+    "name": "Pikachu",
+    "image": "025.png",
+    "type": "electrik",
+    "height": "0.4 m",
+    "weight": "6.0 kg",
+    "description": "Ses joues emmagasinent de l’électricité. Il libère des décharges quand il est en colère."
+  },
+  {
+    "id": "026",
+    "name": "Raichu",
+    "image": "026.png",
+    "type": "Electrik",
+    "height": "0.8 m",
+    "weight": "30.0 kg",
+    "description": "Il libère une forte tension électrique par sa queue, plantée dans le sol."
+  },
+  {
+    "id": "027",
+    "name": "Sabelette",
+    "image": "027.png",
+    "type": "Sol",
+    "height": "0.6 m",
+    "weight": "12.0 kg",
+    "description": "Il creuse dans les sols secs pour se cacher. Son corps est dur comme de la terre."
+  },
+  {
+    "id": "028",
+    "name": "Sablaireau",
+    "image": "028.png",
+    "type": "Sol",
+    "height": "1.0 m",
+    "weight": "29.5 kg",
+    "description": "Il roule en boule pour se protéger et utilise ses griffes pour attaquer rapidement."
+  },
+  {
+    "id": "029",
+    "name": "Nidoran♀",
+    "image": "029.png",
+    "type": "Poison",
+    "height": "0.4 m",
+    "weight": "7.0 kg",
+    "description": "Elle libère des toxines par ses cornes. Elle est timide mais se défend avec acharnement."
+  },
+  {
+    "id": "030",
+    "name": "Nidorina",
+    "image": "030.png",
+    "type": "Poison",
+    "height": "0.8 m",
+    "weight": "20.0 kg",
+    "description": "Plus calme que Nidoran♀, elle préfère mordre que piquer avec ses cornes."
+  },
+  {
+    "id": "031",
+    "name": "Nidoqueen",
+    "image": "031.png",
+    "type": "Poison/Sol",
+    "height": "1.3 m",
+    "weight": "60.0 kg",
+    "description": "Sa peau robuste agit comme une armure. Elle protège farouchement ses petits."
+  },
+  {
+    "id": "032",
+    "name": "Nidoran♂",
+    "image": "032.png",
+    "type": "Poison",
+    "height": "0.5 m",
+    "weight": "9.0 kg",
+    "description": "Ses grandes oreilles détectent les sons sur de longues distances. Il attaque en piquant."
+  },
+  {
+    "id": "033",
+    "name": "Nidorino",
+    "image": "033.png",
+    "type": "Poison",
+    "height": "0.9 m",
+    "weight": "19.5 kg",
+    "description": "Il devient agressif lorsqu'il sent une présence étrangère. Il charge en baissant la tête."
+  },
+  {
+    "id": "034",
+    "name": "Nidoking",
+    "image": "034.png",
+    "type": "Poison/Sol",
+    "height": "1.4 m",
+    "weight": "62.0 kg",
+    "description": "Il utilise sa puissante queue pour briser tout obstacle sur son chemin."
+  },
+  {
+    "id": "035",
+    "name": "Mélofée",
+    "image": "035.png",
+    "type": "Fee",
+    "height": "0.6 m",
+    "weight": "7.5 kg",
+    "description": "Ce Pokémon timide apparaît les nuits de pleine lune et danse en rond avec ses pairs."
+  },
+  {
+    "id": "036",
+    "name": "Mélodelfe",
+    "image": "036.png",
+    "type": "Fee",
+    "height": "1.3 m",
+    "weight": "40.0 kg",
+    "description": "Très discret, il vit loin des humains. Ses oreilles capteurs détectent les sons les plus faibles."
+  },
+  {
+    "id": "037",
+    "name": "Goupix",
+    "image": "037.png",
+    "type": "Feu",
+    "height": "0.6 m",
+    "weight": "9.9 kg",
+    "description": "Il a six queues souples qui deviennent de plus en plus belles à mesure qu’il vieillit."
+  },
+  {
+    "id": "038",
+    "name": "Feunard",
+    "image": "038.png",
+    "type": "Feu",
+    "height": "1.1 m",
+    "weight": "19.9 kg",
+    "description": "Chacun de ses neuf queues est imprégné d’un pouvoir mystique. Il vit très longtemps."
+  },
+  {
+    "id": "039",
+    "name": "Rondoudou",
+    "image": "039.png",
+    "type": "Normal/Fee",
+    "height": "0.5 m",
+    "weight": "5.5 kg",
+    "description": "Il endort ses ennemis avec son chant doux et apaisant, puis les attaque pendant leur sommeil."
+  },
+  {
+    "id": "040",
+    "name": "Grodoudou",
+    "image": "040.png",
+    "type": "Normal/Fee",
+    "height": "1.0 m",
+    "weight": "12.0 kg",
+    "description": "Son corps moelleux peut gonfler comme un ballon. Son cri aigu fait fuir les ennemis."
+  },
+  {
+    "id": "041",
+    "name": "Nosferapti",
+    "image": "041.png",
+    "type": "Poison/Vol",
+    "height": "0.8 m",
+    "weight": "7.5 kg",
+    "description": "Il vole sans faire de bruit et attaque par surprise avec ses crocs pour sucer le sang."
+  },
+  {
+    "id": "042",
+    "name": "Nosferalto",
+    "image": "042.png",
+    "type": "Poison/Vol",
+    "height": "1.6 m",
+    "weight": "55.0 kg",
+    "description": "Il adore le sang frais. Il vole la nuit à la recherche de proies endormies."
+  },
+  {
+    "id": "043",
+    "name": "Mystherbe",
+    "image": "043.png",
+    "type": "Plante/Poison",
+    "height": "0.5 m",
+    "weight": "5.4 kg",
+    "description": "Il dort enfoui dans le sol pendant la journée. Il absorbe l’humidité de la terre."
+  },
+  {
+    "id": "044",
+    "name": "Ortide",
+    "image": "044.png",
+    "type": "Plante/Poison",
+    "height": "0.8 m",
+    "weight": "8.6 kg",
+    "description": "Il dégage un parfum nauséabond avec les fluides collants qui suintent de sa bouche."
+  },
+  {
+    "id": "045",
+    "name": "Rafflesia",
+    "image": "045.png",
+    "type": "Plante/Poison",
+    "height": "1.2 m",
+    "weight": "18.6 kg",
+    "description": "Son énorme fleur libère un pollen toxique. Il l’utilise pour se défendre ou attaquer."
+  },
+  {
+    "id": "046",
+    "name": "Paras",
+    "image": "046.png",
+    "type": "Insecte/Plante",
+    "height": "0.3 m",
+    "weight": "5.4 kg",
+    "description": "Les champignons sur son dos puisent ses nutriments. Il les utilise aussi pour se défendre."
+  },
+  {
+    "id": "047",
+    "name": "Parasect",
+    "image": "047.png",
+    "type": "Insecte/Plante",
+    "height": "1.0 m",
+    "weight": "29.5 kg",
+    "description": "Le champignon a pris le contrôle total du corps de Paras. Il agit de manière zombie."
+  },
+  {
+    "id": "048",
+    "name": "Mimitoss",
+    "image": "048.png",
+    "type": "Insecte/Poison",
+    "height": "1.0 m",
+    "weight": "30.0 kg",
+    "description": "Ses grands yeux composés peuvent voir dans le noir. Il chasse les petits insectes."
+  },
+  {
+    "id": "049",
+    "name": "Aéromite",
+    "image": "049.png",
+    "type": "Insecte/Poison",
+    "height": "1.5 m",
+    "weight": "12.5 kg",
+    "description": "Ses ailes brillent la nuit et dégagent une poudre toxique qui irrite les ennemis."
+  },
+  {
+    "id": "050",
+    "name": "Taupiqueur",
+    "image": "050.png",
+    "type": "Sol",
+    "height": "0.2 m",
+    "weight": "0.8 kg",
+    "description": "Il creuse des galeries souterraines. Il fuit rapidement s’il est exposé à la lumière."
+  },
+    {
+        "id": "051",
+        "name": "Triopikeur",
+        "image": "051.png",
+        "type": "Sol",
+        "height": "0.7 m",
+        "weight": "33.3 kg",
+        "description": "Un groupe de trois Taupiqueur. Il creuse à grande vitesse dans le sol."
+    },
+    {
+        "id": "052",
+        "name": "Miaouss",
+        "image": "052.png",
+        "type": "Normal",
+        "height": "0.4 m",
+        "weight": "4.2 kg",
+        "description": "Il adore les objets brillants. Il en cache souvent dans ses coins favoris."
+    },
+    {
+        "id": "053",
+        "name": "Persian",
+        "image": "053.png",
+        "type": "Normal",
+        "height": "1.0 m",
+        "weight": "32.0 kg",
+        "description": "Son allure gracieuse cache un tempérament féroce. Il attaque avec ses griffes acérées."
+    },
+    {
+        "id": "054",
+        "name": "Psykokwak",
+        "image": "054.png",
+        "type": "Eau",
+        "height": "0.8 m",
+        "weight": "19.6 kg",
+        "description": "Il est souvent pris de maux de tête qui libèrent de puissants pouvoirs psychiques."
+    },
+    {
+        "id": "055",
+        "name": "Akwakwak",
+        "image": "055.png",
+        "type": "Eau",
+        "height": "1.7 m",
+        "weight": "76.6 kg",
+        "description": "Un excellent nageur. Il glisse sur l'eau à toute vitesse en poursuivant ses proies."
+    },
+    {
+        "id": "056",
+        "name": "Férosinge",
+        "image": "056.png",
+        "type": "Combat",
+        "height": "0.5 m",
+        "weight": "28.0 kg",
+        "description": "Toujours en colère, il se bat contre tout ce qui bouge, même sans raison."
+    },
+    {
+        "id": "057",
+        "name": "Colossinge",
+        "image": "057.png",
+        "type": "Combat",
+        "height": "1.0 m",
+        "weight": "32.0 kg",
+        "description": "Sa colère est telle qu'il peut s’évanouir s’il est trop énervé. Très agressif."
+    },
+    {
+        "id": "058",
+        "name": "Caninos",
+        "image": "058.png",
+        "type": "Feu",
+        "height": "0.7 m",
+        "weight": "19.0 kg",
+        "description": "Fidèle et courageux, il aboie férocement pour protéger son territoire."
+    },
+    {
+        "id": "059",
+        "name": "Arcanin",
+        "image": "059.png",
+        "type": "Feu",
+        "height": "1.9 m",
+        "weight": "155.0 kg",
+        "description": "Un Pokémon noble. Ses flammes brûlent avec ardeur lorsqu’il court à pleine vitesse."
+    },
+    {
+        "id": "060",
+        "name": "Ptitard",
+        "image": "060.png",
+        "type": "Eau",
+        "height": "0.6 m",
+        "weight": "12.4 kg",
+        "description": "Sa peau est fine et visqueuse. On peut voir ses organes internes à travers."
+    },
+    {
+        "id": "061",
+        "name": "Têtarte",
+        "image": "061.png",
+        "type": "Eau",
+        "height": "1.0 m",
+        "weight": "20.0 kg",
+        "description": "Très agile, il nage rapidement grâce à ses jambes musclées."
+    },
+    {
+        "id": "062",
+        "name": "Tartard",
+        "image": "062.png",
+        "type": "Eau/Combat",
+        "height": "1.3 m",
+        "weight": "54.0 kg",
+        "description": "Son corps musclé lui permet d'assommer ses ennemis d’un seul coup de poing."
+    },
+    {
+        "id": "063",
+        "name": "Abra",
+        "image": "063.png",
+        "type": "Psy",
+        "height": "0.9 m",
+        "weight": "19.5 kg",
+        "description": "Il dort presque toute la journée. S’il est menacé, il se téléporte immédiatement."
+    },
+    {
+        "id": "064",
+        "name": "Kadabra",
+        "image": "064.png",
+        "type": "Psy",
+        "height": "1.3 m",
+        "weight": "56.5 kg",
+        "description": "Il émet des ondes cérébrales puissantes. Sa cuillère amplifie ses pouvoirs."
+    },
+    {
+        "id": "065",
+        "name": "Alakazam",
+        "image": "065.png",
+        "type": "Psy",
+        "height": "1.5 m",
+        "weight": "48.0 kg",
+        "description": "Son cerveau surdéveloppé est sa plus grande arme. Il n’oublie jamais rien."
+    },
+    {
+        "id": "066",
+        "name": "Machoc",
+        "image": "066.png",
+        "type": "Combat",
+        "height": "0.8 m",
+        "weight": "19.5 kg",
+        "description": "Il s'entraîne sans relâche pour devenir plus fort. Ses muscles sont très durs."
+    },
+    {
+        "id": "067",
+        "name": "Machopeur",
+        "image": "067.png",
+        "type": "Combat",
+        "height": "1.5 m",
+        "weight": "70.5 kg",
+        "description": "Il soulève aisément de gros rochers. Il est souvent vu en train de s'entraîner."
+    },
+    {
+        "id": "068",
+        "name": "Mackogneur",
+        "image": "068.png",
+        "type": "Combat",
+        "height": "1.6 m",
+        "weight": "130.0 kg",
+        "description": "Avec ses quatre bras, il assène des coups rapides et puissants à ses adversaires."
+    },
+    {
+        "id": "069",
+        "name": "Chétiflor",
+        "image": "069.png",
+        "type": "Plante/Poison",
+        "height": "0.7 m",
+        "weight": "4.0 kg",
+        "description": "Il attire ses proies avec son doux parfum, puis les digère lentement."
+    },
+    {
+        "id": "070",
+        "name": "Boustiflor",
+        "image": "070.png",
+        "type": "Plante/Poison",
+        "height": "1.0 m",
+        "weight": "6.4 kg",
+        "description": "Ses feuilles collantes piègent les insectes, qu’il avale tout entiers."
+    },
+    {
+        "id": "071",
+        "name": "Empiflor",
+        "image": "071.png",
+        "type": "Plante/Poison",
+        "height": "1.7 m",
+        "weight": "15.5 kg",
+        "description": "Sa bouche en forme de jarre peut engloutir de gros ennemis en un instant."
+    },
+    {
+        "id": "072",
+        "name": "Tentacool",
+        "image": "072.png",
+        "type": "Eau/Poison",
+        "height": "0.9 m",
+        "weight": "45.5 kg",
+        "description": "Il flotte dans les mers. Ses tentacules libèrent des toxines douloureuses."
+    },
+    {
+        "id": "073",
+        "name": "Tentacruel",
+        "image": "073.png",
+        "type": "Eau/Poison",
+        "height": "1.6 m",
+        "weight": "55.0 kg",
+        "description": "Il possède plus de 80 tentacules. Il paralyse ses proies avec ses toxines."
+    },
+    {
+        "id": "074",
+        "name": "Racaillou",
+        "image": "074.png",
+        "type": "Roche/Sol",
+        "height": "0.4 m",
+        "weight": "20.0 kg",
+        "description": "Il aime descendre les pentes en roulant. Il est très dur et robuste."
+    },
+    {
+        "id": "075",
+        "name": "Gravalanch",
+        "image": "075.png",
+        "type": "Roche/Sol",
+        "height": "1.0 m",
+        "weight": "105.0 kg",
+        "description": "Il roule sur les chemins de montagne en dégageant les obstacles avec ses bras puissants."
+    },
+    {
+        "id": "076",
+        "name": "Grolem",
+        "image": "076.png",
+        "type": "Roche/Sol",
+        "height": "1.4 m",
+        "weight": "300.0 kg",
+        "description": "Son corps blindé est presque indestructible. Il peut survivre à une chute de montagne."
+    },
+    {
+        "id": "077",
+        "name": "Ponyta",
+        "image": "077.png",
+        "type": "Feu",
+        "height": "1.0 m",
+        "weight": "30.0 kg",
+        "description": "Ses flammes dansent sur son dos. Il devient rapide après beaucoup d'entraînement."
+    },
+    {
+        "id": "078",
+        "name": "Galopa",
+        "image": "078.png",
+        "type": "Feu",
+        "height": "1.7 m",
+        "weight": "95.0 kg",
+        "description": "Il court si vite qu'il semble voler. Ses flammes s'intensifient quand il est motivé."
+    },
+    {
+        "id": "079",
+        "name": "Ramoloss",
+        "image": "079.png",
+        "type": "Eau/Psy",
+        "height": "1.2 m",
+        "weight": "36.0 kg",
+        "description": "Très lent et détendu, il oublie souvent ce qu’il faisait. Sa queue est très appréciée."
+    },
+    {
+        "id": "080",
+        "name": "Flagadoss",
+        "image": "080.png",
+        "type": "Eau/Psy",
+        "height": "1.6 m",
+        "weight": "78.5 kg",
+        "description": "Un Kokiyas est accroché à sa queue. Il devient plus intelligent depuis cette union."
+    },
+  {
+    "id": "081",
+    "name": "Magnéti",
+    "image": "081.png",
+    "type": "Electrik/Acier",
+    "height": "0.3 m",
+    "weight": "6.0 kg",
+    "description": "Il flotte grâce à un champ magnétique et attire les objets métalliques."
+  },
+  {
+    "id": "082",
+    "name": "Magnéton",
+    "image": "082.png",
+    "type": "Electrik/Acier",
+    "height": "1.2 m",
+    "weight": "60.0 kg",
+    "description": "Trois Magnéti se combinent pour créer un seul Magnéton, plus puissant."
+  },
+  {
+    "id": "083",
+    "name": "Canarticho",
+    "image": "083.png",
+    "type": "Normal/Vol",
+    "height": "0.8 m",
+    "weight": "15.5 kg",
+    "description": "Toujours en position de garde, il surveille son territoire attentivement."
+  },
+  {
+    "id": "084",
+    "name": "Doduo",
+    "image": "084.png",
+    "type": "Normal/Vol",
+    "height": "1.4 m",
+    "weight": "39.2 kg",
+    "description": "Il court très vite à deux têtes. Il est facilement essoufflé."
+  },
+  {
+    "id": "085",
+    "name": "Dodrio",
+    "image": "085.png",
+    "type": "Normal/Vol",
+    "height": "1.8 m",
+    "weight": "85.2 kg",
+    "description": "Trois têtes travaillent ensemble pour repérer les dangers."
+  },
+  {
+    "id": "086",
+    "name": "Otaria",
+    "image": "086.png",
+    "type": "Eau",
+    "height": "1.1 m",
+    "weight": "29.0 kg",
+    "description": "Sociale, elle nage en groupe et apprécie la compagnie."
+  },
+  {
+    "id": "087",
+    "name": "Lamantine",
+    "image": "087.png",
+    "type": "Eau/Glace",
+    "height": "2.1 m",
+    "weight": "220.0 kg",
+    "description": "Il aime la neige et le froid, et peut tirer des navires hors de l’eau."
+  },
+  {
+    "id": "088",
+    "name": "Tadmorv",
+    "image": "088.png",
+    "type": "Poison",
+    "height": "1.0 m",
+    "weight": "30.0 kg",
+    "description": "Formé d’eaux usées, il fuit les lieux propres pour éviter de se dissoudre."
+  },
+  {
+    "id": "089",
+    "name": "Grotadmorv",
+    "image": "089.png",
+    "type": "Poison",
+    "height": "1.7 m",
+    "weight": "120.0 kg",
+    "description": "Ses deux corps combinés émettent un gaz toxique très puissant."
+  },
+  {
+    "id": "090",
+    "name": "Kokiyas",
+    "image": "090.png",
+    "type": "Eau",
+    "height": "0.5 m",
+    "weight": "24.0 kg",
+    "description": "Il se cache dans sa coquille et attaque avec ses puissantes pinces."
+  },
+  {
+    "id": "091",
+    "name": "Crustabri",
+    "image": "091.png",
+    "type": "Eau",
+    "height": "1.3 m",
+    "weight": "132.0 kg",
+    "description": "Très agressif, il charge à toute vitesse pour défendre son territoire."
+  },
+  {
+    "id": "092",
+    "name": "Fantominus",
+    "image": "092.png",
+    "type": "Spectre/Poison",
+    "height": "1.3 m",
+    "weight": "0.1 kg",
+    "description": "Son corps gazeux rend sa présence difficile à détecter."
+  },
+  {
+    "id": "093",
+    "name": "Spectrum",
+    "image": "093.png",
+    "type": "Spectre/Poison",
+    "height": "1.5 m",
+    "weight": "0.1 kg",
+    "description": "Il peut traverser les murs et provoquer des maladies."
+  },
+  {
+    "id": "094",
+    "name": "Ectoplasma",
+    "image": "094.png",
+    "type": "Spectre/Poison",
+    "height": "1.5 m",
+    "weight": "40.5 kg",
+    "description": "Créature massive avec un grand appétit : on raconte qu’il mange n’importe quoi."
+  },
+  {
+    "id": "095",
+    "name": "Onix",
+    "image": "095.png",
+    "type": "Roche/Sol",
+    "height": "8.8 m",
+    "weight": "210.0 kg",
+    "description": "Un gigantesque serpent de pierre. Il creuse des tunnels en mordant la roche."
+  },
+  {
+    "id": "096",
+    "name": "Soporifik",
+    "image": "096.png",
+    "type": "Psy",
+    "height": "1.6 m",
+    "weight": "32.0 kg",
+    "description": "Il ensorcelle les gens pour les endormir avant de boire leur énergie."
+  },
+  {
+    "id": "097",
+    "name": "Hypnomade",
+    "image": "097.png",
+    "type": "Psy",
+    "height": "1.8 m",
+    "weight": "75.6 kg",
+    "description": "Sa pendule hypnotise les cibles, souvent utilisée pour voler leur sommeil."
+  },
+  {
+    "id": "098",
+    "name": "Krabby",
+    "image": "098.png",
+    "type": "Eau",
+    "height": "0.4 m",
+    "weight": "6.5 kg",
+    "description": "Il est très agressif malgré sa taille, et scrute l’eau pour trouver des proies."
+  },
+  {
+    "id": "099",
+    "name": "Krabboss",
+    "image": "099.png",
+    "type": "Eau",
+    "height": "1.3 m",
+    "weight": "60.0 kg",
+    "description": "Ses pinces sont si puissantes qu’il peut briser des rochers en un coup."
+  },
+  {
+    "id": "100",
+    "name": "Voltorbe",
+    "image": "100.png",
+    "type": "Electrik",
+    "height": "0.5 m",
+    "weight": "10.4 kg",
+    "description": "Ressemble à une Poké Ball, il explose soudainement lorsqu’il est stressé."
+  },
+  {
+    "id": "101",
+    "name": "Électrode",
+    "image": "101.png",
+    "type": "Electrik",
+    "height": "1.2 m",
+    "weight": "66.6 kg",
+    "description": "Son corps est composé d’énergie statique. Il peut exploser à tout moment."
+  },
+  {
+    "id": "102",
+    "name": "Noeunoeuf",
+    "image": "102.png",
+    "type": "Normal/Fee",
+    "height": "0.4 m",
+    "weight": "7.5 kg",
+    "description": "Il porte un œuf sur sa tête. On dit que ça lui porte bonheur."
+  },
+  {
+    "id": "103",
+    "name": "Noadkoko",
+    "image": "103.png",
+    "type": "Plante/Fee",
+    "height": "2.0 m",
+    "weight": "108.0 kg",
+    "description": "Il libère un pollen spécial pour apaiser les émotions."
+  },
+  {
+    "id": "104",
+    "name": "Osselait",
+    "image": "104.png",
+    "type": "Sol",
+    "height": "0.5 m",
+    "weight": "11.5 kg",
+    "description": "Les battements de son os craquent. Il est souvent chassé pour les cuisiner."
+  },
+  {
+    "id": "105",
+    "name": "Ossatueur",
+    "image": "105.png",
+    "type": "Sol",
+    "height": "1.0 m",
+    "weight": "115.0 kg",
+    "description": "Il utilise ses os comme massue et jette les os en spectre pour attaquer."
+  },
+  {
+    "id": "106",
+    "name": "Kicklee",
+    "image": "106.png",
+    "type": "Combat",
+    "height": "1.6 m",
+    "weight": "49.8 kg",
+    "description": "Sa jambe est si puissante qu’il peut casser du béton."
+  },
+  {
+    "id": "107",
+    "name": "Tygnon",
+    "image": "107.png",
+    "type": "Combat",
+    "height": "1.4 m",
+    "weight": "48.0 kg",
+    "description": "Son poing est enveloppé dans des bandes protectrices pour frapper plus fort."
+  },
+  {
+    "id": "108",
+    "name": "Excelangue",
+    "image": "108.png",
+    "type": "Normal",
+    "height": "1.4 m",
+    "weight": "65.5 kg",
+    "description": "Sa langue dépasse de 5 m. Il l’utilise pour fouiller les placards."
+  },
+  {
+    "id": "109",
+    "name": "Smogo",
+    "image": "109.png",
+    "type": "Poison",
+    "height": "1.3 m",
+    "weight": "40.0 kg",
+    "description": "Son corps est composé de vapeurs toxiques, très nocives pour l'environnement."
+  },
+  {
+    "id": "110",
+    "name": "Smogogo",
+    "image": "110.png",
+    "type": "Poison",
+    "height": "1.8 m",
+    "weight": "120.0 kg",
+    "description": "Il expulse des boules de fumée toxique qui s’enflamment spontanément."
+  },
+  {
+    "id": "111",
+    "name": "Rhinocorne",
+    "image": "111.png",
+    "type": "Roche/sol",
+    "height": "0.9 m",
+    "weight": "115.0 kg",
+    "description": "Ses griffes robustes peuvent creuser des grottes."
+  },
+  {
+    "id": "112",
+    "name": "Rhinoféros",
+    "image": "112.png",
+    "type": "Roche/sol",
+    "height": "1.9 m",
+    "weight": "120.0 kg",
+    "description": "Il fonce tête baissée. Son corps lui permet de démolir des obstacles."
+  },
+  {
+    "id": "113",
+    "name": "Leveinard",
+    "image": "113.png",
+    "type": "Normal",
+    "height": "1.2 m",
+    "weight": "34.6 kg",
+    "description": "On dit qu'il apporte la chance. Il soigne les autres avec son œuf."
+  },
+  {
+    "id": "114",
+    "name": "Saquedeneu",
+    "image": "114.png",
+    "type": "Plante",
+    "height": "0.4 m",
+    "weight": "55.0 kg",
+    "description": "Il se fond sur les rochers. Ses bras longs le font ressembler à un buisson."
+  },
+  {
+    "id": "115",
+    "name": "Kangourex",
+    "image": "115.png",
+    "type": "Normal",
+    "height": "2.2 m",
+    "weight": "80.0 kg",
+    "description": "Il porte son bébé dans sa poche ventrale où il reste protégé jusqu’à sa sortie."
+  },
+  {
+    "id": "116",
+    "name": "Hypotrempe",
+    "image": "116.png",
+    "type": "Eau",
+    "height": "0.4 m",
+    "weight": "3.1 kg",
+    "description": "Il attire les proies avec son petit champignon sur la tête."
+  },
+  {
+    "id": "117",
+    "name": "Hypocéan",
+    "image": "117.png",
+    "type": "Eau",
+    "height": "0.8 m",
+    "weight": "16.0 kg",
+    "description": "Il déplace les rivages en nageant près des côtes."
+  },
+  {
+    "id": "118",
+    "name": "Poissirène",
+    "image": "118.png",
+    "type": "Eau",
+    "height": "0.6 m",
+    "weight": "15.0 kg",
+    "description": "Il reproduit les chants des proies et des prédateurs pour tromper."
+  },
+  {
+    "id": "119",
+    "name": "Poissoroy",
+    "image": "119.png",
+    "type": "Eau",
+    "height": "1.8 m",
+    "weight": "90.0 kg",
+    "description": "Il possède six nageoires impressionnantes pour nager à grande vitesse."
+  },
+  {
+    "id": "120",
+    "name": "Stari",
+    "image": "120.png",
+    "type": "Eau",
+    "height": "0.8 m",
+    "weight": "34.5 kg",
+    "description": "Il naît sans cœur. On dit que son étoile brille lorsque quelqu’un est en danger."
+  },
+  {
+    "id": "121",
+    "name": "Staross",
+    "image": "121.png",
+    "type": "Eau/Psy",
+    "height": "1.1 m",
+    "weight": "78.6 kg",
+    "description": "Son fossile est sacré. Il utilise ses pouvoirs psychiques pour communiquer."
+  },
+  {
+    "id": "122",
+    "name": "M. Mime",
+    "image": "122.png",
+    "type": "Psy/Fee",
+    "height": "1.3 m",
+    "weight": "54.5 kg",
+    "description": "Il mime les gestes pour communiquer. Très apprécié dans les spectacles."
+  },
+  {
+    "id": "123",
+    "name": "Insécateur",
+    "image": "123.png",
+    "type": "Insecte/Vol",
+    "height": "1.5 m",
+    "weight": "35.0 kg",
+    "description": "Ses lames sont plus tranchantes que l’acier. Il peut couper en deux un oiseau."
+  },
+  {
+    "id": "124",
+    "name": "Lippoutou",
+    "image": "124.png",
+    "type": "Psy/Glace",
+    "height": "1.3 m",
+    "weight": "48.0 kg",
+    "description": "Il imite les humains pour voler leur chaleur corporelle."
+  },
+  {
+    "id": "125",
+    "name": "Élektek",
+    "image": "125.png",
+    "type": "Electrik",
+    "height": "1.4 m",
+    "weight": "30.0 kg",
+    "description": "Il génère de la chaleur dans son corps. On peut voir des étincelles crépiter."
+  },
+  {
+    "id": "126",
+    "name": "Magmar",
+    "image": "126.png",
+    "type": "Feu",
+    "height": "1.3 m",
+    "weight": "44.5 kg",
+    "description": "Son corps dépasse les 40 °C. Il crache de la fumée blanche lorsqu’il est malade."
+  },
+  {
+    "id": "127",
+    "name": "Scarabrute",
+    "image": "127.png",
+    "type": "Insecte",
+    "height": "1.5 m",
+    "weight": "30.0 kg",
+    "description": "Il combat pour le contrôle des territoires. Il utilise sa corne pour charger."
+  },
+  {
+    "id": "128",
+    "name": "Tauros",
+    "image": "128.png",
+    "type": "Normal",
+    "height": "1.4 m",
+    "weight": "88.4 kg",
+    "description": "Volontaire et dangereux, il charge à pleine vitesse quand il est frustré."
+  },
+  {
+    "id": "129",
+    "name": "Magicarpe",
+    "image": "129.png",
+    "type": "Eau",
+    "height": "0.9 m",
+    "weight": "10.0 kg",
+    "description": "Considéré comme inutile, mais peut évoluer en Léviator, très puissant."
+  },
+  {
+    "id": "130",
+    "name": "Léviator",
+    "image": "130.png",
+    "type": "Eau/Vol",
+    "height": "2.0 m",
+    "weight": "235.0 kg",
+    "description": "Ses cris terrifiants provoquent des tempêtes et des tsunamis."
+  },
+  {
+    "id": "131",
+    "name": "Lokhlass",
+    "image": "131.png",
+    "type": "Eau/Glace",
+    "height": "2.5 m",
+    "weight": "135.0 kg",
+    "description": "Il transporte les gens et nage à travers les mers glacées."
+  },
+  {
+    "id": "132",
+    "name": "Métamorph",
+    "image": "132.png",
+    "type": "Normal",
+    "height": "0.3 m",
+    "weight": "4.0 kg",
+    "description": "Peut prendre l’apparence de tout ce qu’il voit."
+  },
+  {
+    "id": "133",
+    "name": "Évoli",
+    "image": "133.png",
+    "type": "Normal",
+    "height": "0.3 m",
+    "weight": "6.5 kg",
+    "description": "Peut évoluer en plusieurs formes selon l’environnement ou les pierres."
+  },
+  {
+    "id": "134",
+    "name": "Aquali",
+    "image": "134.png",
+    "type": "Eau",
+    "height": "1.0 m",
+    "weight": "29.0 kg",
+    "description": "Vivacité exceptionnelle, ses nageoires fonctionnent comme un voile."
+  },
+  {
+    "id": "135",
+    "name": "Voltali",
+    "image": "135.png",
+    "type": "Electrik",
+    "height": "0.8 m",
+    "weight": "24.5 kg",
+    "description": "Charge électrique stockée dans son pelage donne des capacités de sprint."
+  },
+  {
+    "id": "136",
+    "name": "Pyroli",
+    "image": "136.png",
+    "type": "Feu",
+    "height": "0.9 m",
+    "weight": "25.0 kg",
+    "description": "Son pelage chaud permet de survivre dans les régions froides."
+  },
+  {
+    "id": "137",
+    "name": "Porygon",
+    "image": "137.png",
+    "type": "Normal",
+    "height": "0.8 m",
+    "weight": "36.5 kg",
+    "description": "Créé par ordinateur, il évolue en ligne selon le logiciel."
+  },
+  {
+    "id": "138",
+    "name": "Amonita",
+    "image": "138.png",
+    "type": "Roche/Eau",
+    "height": "0.4 m",
+    "weight": "7.5 kg",
+    "description": "Fossile vivant, il sort la nuit pour chasser les petits poissons."
+  },
+  {
+    "id": "139",
+    "name": "Amonistar",
+    "image": "139.png",
+    "type": "Roche/Eau",
+    "height": "1.0 m",
+    "weight": "35.0 kg",
+    "description": "Ses yeux radiaux détectent la moindre vibration de l’eau."
+  },
+  {
+    "id": "140",
+    "name": "Kabuto",
+    "image": "140.png",
+    "type": "Roche/Eau",
+    "height": "0.5 m",
+    "weight": "11.5 kg",
+    "description": "Fossile ramené de la mer. Il se cache sous le sable."
+  },
+  {
+    "id": "141",
+    "name": "Kabutops",
+    "image": "141.png",
+    "type": "Roche/Eau",
+    "height": "1.3 m",
+    "weight": "40.5 kg",
+    "description": "Ses lames sont acérées pour découper ses proies en un instant."
+  },
+  {
+    "id": "142",
+    "name": "Ptéra",
+    "image": "142.png",
+    "type": "Roche/Vol",
+    "height": "1.8 m",
+    "weight": "59.0 kg",
+    "description": "Prédateur du ciel préhistorique, il pouvait planer des heures."
+  },
+  {
+    "id": "143",
+    "name": "Ronflex",
+    "image": "143.png",
+    "type": "Normal",
+    "height": "2.1 m",
+    "weight": "460.0 kg",
+    "description": "Il dort sur la route sans bouger. Très puissant malgré son sommeil."
+  },
+  {
+    "id": "144",
+    "name": "Artikodin",
+    "image": "144.png",
+    "type": "Glace/Vol",
+    "height": "1.7 m",
+    "weight": "55.4 kg",
+    "description": "Il provoque des tempêtes glaciales lorsqu’il vole."
+  },
+  {
+    "id": "145",
+    "name": "Électhor",
+    "image": "145.png",
+    "type": "Electrik/Vol",
+    "height": "1.9 m",
+    "weight": "52.6 kg",
+    "description": "Son battement d’ailes crée des orages."
+  },
+  {
+    "id": "146",
+    "name": "Sulfura",
+    "image": "146.png",
+    "type": "Feu/Vol",
+    "height": "2.0 m",
+    "weight": "60.0 kg",
+    "description": "Son plumage embrasé réchauffe l’air autour de lui."
+  },
+  {
+    "id": "147",
+    "name": "Minidraco",
+    "image": "147.png", 
+    "type": "Dragon", 
+    "height": "0.6 m", 
+    "weight": "3.3 kg", 
+    "description": "Petit dragon mythique. Il est très attaché à son dresseur."
+  },
+  {
+    "id": "148",
+    "name": "Draco",
+    "image": "148.png",
+    "type": "Dragon", 
+    "height": "1.1 m", 
+    "weight": "16.5 kg", 
+    "description": "Sa corne est remplie d’énergie. Il combat avec bravoure."
+  },
+  {
+    "id": "149",
+    "name": "Dracolosse",
+    "image": "149.png", 
+    "type": "Dragon/Vol", 
+    "height": "2.2 m", 
+    "weight": "210.0 kg", 
+    "description": "Il vit dans les nuages. Créature rare, très puissante."
+  },
+  {
+    "id": "150",
+    "name": "Mewtwo",
+    "image": "150.png", 
+    "type": "Psy", 
+    "height": "2.0 m", 
+    "weight": "122.0 kg", 
+    "description": "Créé par génétique, il est plus fort que 150 Pokémon."
+  },
+  {
+    "id": "151",
+    "name": "Mew",
+    "image": "151.png", 
+    "type": "Psy", 
+    "height": "0.4 m", 
+    "weight": "4.0 kg", 
+    "description": "Contient l’ADN de tous les Pokémon. Très rare et mystérieux."
+  }
+]
