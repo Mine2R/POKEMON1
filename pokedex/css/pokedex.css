@@ -107,6 +107,21 @@ left: 24.2%;
   top: 79%;
 }
 
+/* Bouton premier Pokémon */
+.first {
+position: absolute;
+  left: 82%;
+  top: 76%;
+}
+
+/* Bouton dernier Pokémon */
+.last {
+position: absolute;
+  left: 82%;
+  top: 81.5%;
+}
+
+
 /* section histoire du pokedex */
 
 .pokedex-history {

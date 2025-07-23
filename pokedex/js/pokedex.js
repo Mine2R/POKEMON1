@@ -15,6 +15,9 @@ const pokemonName = document.getElementById("pokemon-name");
 const typeBg = document.getElementById("type-poke");
 const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
+const firstBtn = document.getElementById("first");
+const lastBtn = document.getElementById("last");
+
 
 //formater un type en nom de fichier sans accents
 function formatTypeToFilename(type) {
@@ -30,6 +33,7 @@ function displayPokemon() {
 
   //nom du Pokémon
   pokemonName.textContent = pokemon.name;
+  
 
   //image de fond selon le type
   const filename = formatTypeToFilename(pokemon.type);
@@ -44,6 +48,18 @@ prevBtn.addEventListener("click", () => {
 
 nextBtn.addEventListener("click", () => {
   currentIndex = (currentIndex + 1) % pokemonData.length;
+  displayPokemon();
+});
+
+
+//boutons navigation
+firstBtn.addEventListener("click", () => {
+  currentIndex = 0;
+  displayPokemon();
+});
+
+lastBtn.addEventListener("click", () => {
+  currentIndex = 150;
   displayPokemon();
 });
 
