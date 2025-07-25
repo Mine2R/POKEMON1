@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Pokemon1-jeu</title>
+  <link rel="stylesheet" href="../css/style-memory.css">
+</head>
+<body>
+    <div id="rotate-warning">
+    🔄 Pour une meilleure expérience de jeu, orientez votre appareil en mode paysage.
+    </div>
+  
+  <header>  
+     <nav>
+      <div class="nav-left">
+        <a href="index.html">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pokémon_logo.svg" alt="Logo Pokémon" class="logo">
+        </a>
+      </div>
+      <div class="nav-right">
+        
+        <a href="memory.html">Pokémemory</a>
+        <a href="pokedex.html">Pokédex</a>
+      </div>
+      <div class="burger-menu" id="burger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+      </div>
+    </nav>
+    </header>
+
+  <main>
+    <div id="main-content">
+    <div class="memory-container">
+      <!-- Titre -->
+      <section class="memory-title hidden">
+        <p>Retrouve les paires de carte énergie</p>
+      </section>
+
+      <!-- Plateau de jeu avec les 6 paires -->
+      <section id="memory-board" class="memory-board hidden"></section>
+
+
+      <!-- Compteur et victoire -->
+      <section class="game-ui hidden">
+        <p id="move-counter" class="move-counter">Coups : 0</p>
+        <p id="timer" class="timer">Temps : 0s</p>
+        <div id="win-message" class="hidden">
+          <h2 id="win-text">À toi de jouer !</h2>
+          
+          <button id="replay-btn">Rejouer</button>
+        </div>
+
+
+      </section>
+    </div>
+    <!-- Effect -->
+      <div id="confetti-container"></div>
+      <div id="victory-banner">Tu es un maître Pokémon !</div>
+      <div id="flash-effect" class="hidden"></div>
+      <div id="light-ray"></div>
+      <!-- Image de Poussifeu animée -->
+      <img id="poussifeu-jump" src="../asset/TCG/poussifeu.png" alt="Poussifeu" />
+    </div>
+  <script src="../js/script-memory.js"></script>
+</body>
+</html>
+
