@@ -1,0 +1,340 @@
+:root {
+    --pokemon-yellow: #FFCB05;
+    --pokemon-blue: #2A75BB;
+    --pokemon-red: #CC0000;
+    --bg-color: #f8f8f8;
+    --text-dark: #333;
+    --text-light: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+nav a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: x-large;
+    color: #2A75BB;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    background: linear-gradient(135deg, #3b4cca, #ffcb05, #e3350d);
+    background-size: 600% 600%;
+    animation: bgAnimation 15s ease infinite;
+}
+
+@keyframes bgAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    padding: 30px 0;
+    position: relative;
+    z-index: 10;
+}
+
+.logo {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: rotate(15deg);
+}
+
+.hero {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 1.1;
+    color: var(--pokemon-blue);
+}
+
+.typewriter {
+    border-right: 3px solid var(--pokemon-red);
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    opacity: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: var(--pokemon-red);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+.btn:hover {
+    background-color: var(--pokemon-blue);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.pokeball {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.9;
+    animation: float 6s ease-in-out infinite;
+}
+
+.pokeball-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.pokeball-top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    background-color: var(--pokemon-red);
+    border-radius: 150px 150px 0 0;
+    border: 8px solid var(--text-dark);
+}
+
+.pokeball-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 0 0 150px 150px;
+    border: 8px solid var(--text-dark);
+}
+
+.pokeball-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: 8px solid var(--text-dark);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.pokeball-center-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    background-color: var(--text-dark);
+    border-radius: 50%;
+}
+
+.pikachu {
+    position: absolute;
+    width: 150px;
+    right: 25%;
+    bottom: 10%;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.pikachu img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 5px 10px rgba(0,0,0,0.2));
+}
+
+.floating-pokemon {
+    position: absolute;
+    opacity: 0.1;
+    z-index: 1;
+}
+
+.floating-pokemon img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes float {
+    0% { transform: translateY(-50%) rotate(0deg); }
+    50% { transform: translateY(-55%) rotate(5deg); }
+    100% { transform: translateY(-50%) rotate(0deg); }
+}
+
+@keyframes blink {
+    0%, 100% { border-color: transparent; }
+    50% { border-color: var(--pokemon-red); }
+}
+
+
+
+/* Evolution Section */
+.evolution-section {
+    padding: 80px 0 200px;
+    color: var(--text-dark);
+    position: relative;
+}
+
+.evolution-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: var(--pokemon-blue);
+}
+
+.evolution-section .subtitle {
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 60px;
+}
+
+.evolution-scroll {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.evolution-item {
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    min-height: 400px;
+}
+
+.evolution-pokemon {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.evolution-pokemon img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.5s ease;
+    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.2));
+}
+
+.evolution-pokemon .base {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.evolution-info {
+    text-align: center;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.evolution-info h3 {
+    color: var(--pokemon-red);
+    margin-bottom: 10px;
+}
+
+/* Animation states */
+.evolution-item.active .evolution-pokemon .base {
+    opacity: 0;
+    transform: scale(0.5) translateY(-50px);
+}
+
+.evolution-item.active .evolution-pokemon .middle {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.evolution-item.final .evolution-pokemon .middle {
+    opacity: 0;
+    transform: scale(0.5) translateY(-50px);
+}
+
+.evolution-item.final .evolution-pokemon .final {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .evolution-item {
+        min-height: 300px;
+        margin-bottom: 200px;
+    }
+    
+    .evolution-pokemon {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .pokeball {
+        width: 200px;
+        height: 200px;
+        right: 5%;
+    }
+    
+    .pikachu {
+        width: 100px;
+        right: 15%;
+    }
+}

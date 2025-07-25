@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon | Minimalist</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Pokémon Logo" class="logo"></a>
+                <a href="Pokememory.html">Pokememory</a>
+                <a href="pokedex.html">Pokedex</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Découvrez Pokémon</h1>
+                <p>Rejoignez Nous Dans Cette Aventure !</p>
+                <a href="#" class="btn">Pokédex</a>
+            </div>
+
+            <div class="pokeball">
+                <div class="pokeball-inner">
+                    <div class="pokeball-top"></div>
+                    <div class="pokeball-bottom"></div>
+                    <div class="pokeball-center">
+                        <div class="pokeball-center-inner"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pikachu">
+                <img src="./asset/accueil/pikachu.png" alt="Pikachu">
+            </div>
+        </section>
+
+        <section class="evolution-section">
+            <h2>Evolution</h2>
+            <p class="subtitle">Scroll vers le bas pour les Transformer !</p>
+            
+            <div class="evolution-scroll">
+                <div class="evolution-item charmander-line">
+                    <div class="evolution-pokemon">
+                        <img src="./asset/accueil/salameche.png" alt="salameche" class="base">
+                        <img src="./asset/accueil/reptincel.png" alt="reptincel" class="middle">
+                        <img src="./asset/accueil/draceaufeu.png" alt="draceaufeu" class="final">
+                    </div>
+                    <div class="evolution-info">
+                        <h3>Salameche → Reptincel → Draceaufeu</h3>
+                        <p>Type Feu starter Pokémon from Kanto region</p>
+                    </div>
+                </div>
+                <div class="evolution-item squirtle-line">
+                    <div class="evolution-pokemon">
+                        <img src="./asset/accueil/carapuce.png" alt="carapuce" class="base">
+                        <img src="./asset/accueil/carabafe.png" alt="carabaffe" class="middle">
+                        <img src="./asset/accueil/Tortank.png" alt="Tortank" class="final">
+                    </div>
+                    <div class="evolution-info">
+                        <h3>Carapuce → Carabaffe→ Tortank</h3>
+                        <p>Water-type starter Pokémon from Kanto region</p>
+                    </div>
+                </div>
+                <div class="evolution-item bulbasaur-line">
+                    <div class="evolution-pokemon">
+                        <img src="./asset/accueil/bulbizar.png" alt="Bulbizzare" class="base">
+                        <img src="./asset/accueil/herbizar.png" alt="Herbizzare" class="middle">
+                        <img src="./asset/accueil/florizar.png" alt="Florizarre" class="final">
+                    </div>
+                    <div class="evolution-info">
+                        <h3>Bulbizzare → Herbizzare → Florizarre</h3>
+                        <p>Grass-type starter Pokémon from Kanto region</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
